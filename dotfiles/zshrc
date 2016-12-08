@@ -93,4 +93,6 @@ eval "$(pyenv virtualenv-init -)"
 # TMUXIFIER
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 
-eval "(docker-machine env default)"
+export EDTIOR=vim
+export PATH="$HOME/.npm-packages/bin:$PATH"
+

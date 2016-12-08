@@ -166,6 +166,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'http://github.com/tpope/vim-fugitive'
 Plugin 'nvie/vim-flake8'
 Plugin 'alfredodeza/pytest.vim'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 "Plugin 'https://github.com/davidhalter/jedi-vim'
 " -- Web Development
 " Plugin 'Shutnik/jshint2.vim'        
@@ -248,4 +249,5 @@ vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 au BufNewFile,BufRead *.ts set filetype=typescript
 
 " disable cursorline
-set cursorline
+hi CursorLine   cterm=NONE ctermbg=None ctermfg=white
+
